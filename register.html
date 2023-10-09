@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Splash Page</title>
+    <link rel="stylesheet" type="text/css" href="css/splashh.css">
+    <link rel="stylesheet" type="text/css" href="css/home.css">
+</head>
+<body>
+    
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <a href="index.html">
+                    <h1>ScoopNews</h1>
+                </a>
+            
+                <nav>
+                    <ul>
+                        <li><a href="Brands.html">About</a></li>
+                        <li><a href="FindCar.html">Contact</a></li>
+                        <li><a href="login.html">Log In</a></li>
+        
+                    </ul>
+                </nav> 
+            </div>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="container">
+            <form class="form" action="php/validatesignup.php" method="post">
+                <h2>Sign Up</h2>
+                <div class="form-row">
+                    <label for="firstname">First Name:</label><br/>
+                    <input type="text" id="firstname" name="firstname" />
+                    <small id="nam"></small>
+                </div>
+                <div class="form-row">
+                    <label for="lastname">Last Name:</label><br/>
+                    <input type="text" id="lastname" name="lastname" />
+                    <small id="lnam"></small>
+                </div>
+                <div class="form-row">
+                    <label for="email">Email:</label><br/>
+                    <input type="text" id="email" name="email" />
+                    <small id="eml"></small>
+                </div>
+                <div class="form-row">
+                    <label for="password">Password:</label><br/>
+                    <input type="password" id="password" name="password" />
+                    <small id="pw"></small>
+                </div>
+                
+                <button class="login">Sign Up</button> 
+            
+            </form>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <div class="content">
+                <div class="col-footer">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li>Get help</li>
+                        <li>Advertise</li>
+                        <li>Membership</li>
+                    </ul>
+                </div>
+                <div class="col-footer">
+                    <h3>Company</h3>
+                    <ul>
+                        <li>About</li>
+                        <li>Articles</li>
+                        <li>Careers</li>
+                    </ul>
+                </div>
+                <div class="col-footer">
+                    <h3>Contacts</h3>
+                    <ul>
+                        <li>Twitter</li>
+                        <li>Facebook</li>
+                        <li>Instagram</li>
+                    </ul>
+                </div>
+                
+            </div>
+
+            <p class="copyright">Copyright 2023 - ScoopNews</p>
+        </div>
+    </div>
+    
+    <script src="javascript/validatesignup.js"></script>
+</body>
+</html>

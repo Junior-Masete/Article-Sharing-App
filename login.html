@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Genal</title>
+    <link rel="stylesheet" type="text/css" href="css/splashh.css">
+    <link rel="stylesheet" type="text/css" href="css/home.css">
+</head>
+<body>
+    
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <a href="index.html">
+                    <h1>ScoopNews</h1>
+                </a>
+            
+                <nav>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Log In</a></li>
+        
+                    </ul>
+                </nav> 
+            </div>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="container">
+            <form action="php/validatelogin.php" method="post">
+                <h2>login</h2>
+                <div class="form-row">
+                    <label for="username">Username:</label><br/>
+                    <input type="text" id="username" name="username" />
+                    <small id="unam"></small>
+                </div>
+                <div class="form-row">
+                    <label for="password">Password:</label><br/>
+                    <input type="password" id="password" name="password" />
+                    <small id="pw"></small>
+                </div>
+                
+                <button class="login">log in</button>
+               
+                <p class="or">OR</p>
+                <p class="or"><a href="register.html">Sign Up</a></p>
+            </form>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <div class="content">
+                <div class="col-footer">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li>Get help</li>
+                        <li>Advertise</li>
+                        <li>Membership</li>
+                    </ul>
+                </div>
+                <div class="col-footer">
+                    <h3>Company</h3>
+                    <ul>
+                        <li>About</li>
+                        <li>Articles</li>
+                        <li>Careers</li>
+                    </ul>
+                </div>
+                <div class="col-footer">
+                    <h3>Contacts</h3>
+                    <ul>
+                        <li>Twitter</li>
+                        <li>Facebook</li>
+                        <li>Instagram</li>
+                    </ul>
+                </div>
+                
+            </div>
+
+            <p class="copyright">Copyright 2023 - ScoopNews</p>
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="javascript/validatelogin.js" >
+    </script>
+</body>
+</html>
